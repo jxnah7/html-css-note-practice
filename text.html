@@ -40,10 +40,14 @@
   }
   .shopNow {
     cursor: pointer;
-    margin-left: 20px;
   }
   .shopNow:hover {
     text-decoration: underline;
+  }
+  /*This gets rid of that hyperlink color and also makes it the same color of the surrounding text*/
+  .custom-link {
+    text-decoration: none;
+    color: inherit;
   }
 </style>  
 
@@ -70,6 +74,12 @@
 just print the symbol, instead find the entity on google and print that
 just incase the compiler gets confused for any reason-->
 <p class="apple-text">
-  Shop early for the best selection of holiday favourites. <span class="shopNow">&rarr; Shop now &larr;</span>
+  Shop early for the best selection of holiday favourites. &rarr;
+  <span class="shopNow">
+    <a href="https://www.amazon.com/" target="_blank" class="custom-link">
+       Shop now 
+      </a>
+    </span>
+    &larr;
 </p>
 
