@@ -29,16 +29,34 @@ button {
   margin-left: 215px;
   margin-right: 50px;
   color: rgb(36, 186, 181);
+  border: 2px solid transparent;
+  transition: background-color .3s ease, border-color .3s ease;
 }
 .easy-button:hover {
+  opacity: .7;
+}
+.easy-button:active,
+.easy-button:focus {
+  border-radius: 5px;
+  border-color: rgb(36, 186, 181);
   animation: flash .5s infinite;
+
 }
 .medium-button {
   margin-right: 50px;
   color: rgb(200, 200, 37);
+  border: 2px solid transparent;
+  transition: background-color .3s ease, border-color .3s ease;
 }
 .medium-button:hover {
+  opacity: .7;
+}
+.medium-button:active,
+.medium-button:focus {
+  border-radius: 5px;
+  border-color: yellow;
   animation: flash .5s infinite;
+
 }
 .hell-button {
   margin-right: 50px;
@@ -47,12 +65,13 @@ button {
   transition: background-color .3s ease, border-color .3s ease;
 }
 .hell-button:hover {
-  animation: flash .5s infinite;
+  opacity: .7;
 }
 .hell-button:active,
 .hell-button:focus {
   border-radius: 5px;
   border-color: red;
+  animation: flash .5s infinite;
 }
 .confirm-button {
   color: white;
