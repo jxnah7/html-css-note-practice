@@ -1,3 +1,12 @@
+.abtme {
+  text-align: right;
+  width: 80px;
+  cursor: pointer;
+  transition: .5s;
+}
+.abtme:hover {
+  opacity: .75;
+}
 p {
   color: black;
   font-family: Impact;
@@ -15,24 +24,47 @@ button {
   width: 94px;
   
 }
+
 .easy-button {
   margin-left: 215px;
   margin-right: 50px;
   color: rgb(36, 186, 181);
 }
+.easy-button:hover {
+  animation: flash .5s infinite;
+}
 .medium-button {
   margin-right: 50px;
   color: rgb(200, 200, 37);
 }
+.medium-button:hover {
+  animation: flash .5s infinite;
+}
 .hell-button {
   margin-right: 50px;
   color: red;
+  border: 2px solid transparent;
+  transition: background-color .3s ease, border-color .3s ease;
+}
+.hell-button:hover {
+  animation: flash .5s infinite;
+}
+.hell-button:active,
+.hell-button:focus {
+  border-radius: 5px;
+  border-color: red;
 }
 .confirm-button {
   color: white;
   margin-left: 363px;
   margin-top: 40px;
   
+}
+.confirm-button:hover {
+  opacity: .8;
+}
+.confirm-button:active {
+  opacity: .5;
 }
 .title {
   text-align: center;
@@ -64,4 +96,15 @@ button {
 .game {
   text-align: left;
   margin-top: 100px;
+}
+@keyframes flash {
+  0% {
+      opacity: 1; /* Fully opaque */
+  }
+  50% {
+      opacity: 0.5; /* Half transparent */
+  }
+  100% {
+      opacity: 1; /* Back to fully opaque */
+  }
 }
