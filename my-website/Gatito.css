@@ -1,8 +1,10 @@
 .abtme {
   text-align: right;
-  width: 80px;
+  width: 150px;
   cursor: pointer;
   transition: .5s;
+  font-size: 30px;
+  color: rgb(13, 17, 27);
 }
 .abtme:hover {
   opacity: .75;
@@ -77,8 +79,6 @@ button {
   color: white;
   margin-left: 363px;
   margin-top: 40px;
-  
-  
 }
 .confirm-button:hover {
   opacity: .8;
@@ -91,16 +91,21 @@ button {
 .title {
   text-align: center;
   font-weight: bold;
-  font-size: 60px;
+  font-size: 80px;
+  color: rgb(13, 17, 27);
 }
 .sub-title {
   font-weight: bolder;
   text-align: center;
   margin-bottom: 92px;
+  font-size: 40px;
+  font-style: italic;
+  color: rgb(13, 17, 27);
 }
 .difficulty {
   font-size: 40px;
   margin-bottom: 39px;
+  color: rgb(13, 17, 27)
 }
 .left-italics {
   display: inline-block;
@@ -114,10 +119,12 @@ button {
 }
 .motivation {
   margin-top: 250px;
+  color: rgb(13, 17, 27);
 }
 .game {
   text-align: left;
   margin-top: 100px;
+  color: rgb(13, 17, 27);
 }
 @keyframes flash {
   0% {
