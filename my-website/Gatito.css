@@ -1,3 +1,55 @@
+p {
+  color: black;
+  font-family: Impact;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+button {
+  cursor: pointer;
+  border-radius: 2px;
+  border-color: black;
+  color: black;
+  
+}
+.easy-button {
+  margin-left: 275px;
+  margin-right: 50px;
+}
+.medium-button {
+  margin-right: 50px;
+}
+.hell-button {
+  margin-right: 50px;
+}
 .title {
   text-align: center;
+  font-weight: bold;
+  font-size: 60px;
+}
+.sub-title {
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 92px;
+}
+.difficulty {
+  font-size: 40px;
+  margin-bottom: 39px;
+}
+.left-italics {
+  display: inline-block;
+  transform: skew(20deg); /* Adjust the angle as needed */
+  font-style: normal; /* Ensure it's not using default italics */
+}
+.right-italics {
+  display: inline-block;
+  transform: skew(-20deg); /* Adjust the angle as needed */
+  font-style: normal; /* Ensure it's not using default italics */
+}
+.motivation {
+  margin-top: 250px;
+}
+.game {
+  text-align: left;
+  margin-top: 140px;
 }
