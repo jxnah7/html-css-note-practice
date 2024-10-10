@@ -7,20 +7,32 @@ p {
 }
 button {
   cursor: pointer;
-  border-radius: 2px;
+  border-radius: 3px;
   border-color: black;
   color: black;
+  background-color: rgb(101, 91, 91);
+  height: 36px;
+  width: 94px;
   
 }
 .easy-button {
-  margin-left: 275px;
+  margin-left: 215px;
   margin-right: 50px;
+  color: rgb(36, 186, 181);
 }
 .medium-button {
   margin-right: 50px;
+  color: rgb(200, 200, 37);
 }
 .hell-button {
   margin-right: 50px;
+  color: red;
+}
+.confirm-button {
+  color: white;
+  margin-left: 363px;
+  margin-top: 40px;
+  
 }
 .title {
   text-align: center;
@@ -51,5 +63,5 @@ button {
 }
 .game {
   text-align: left;
-  margin-top: 140px;
+  margin-top: 100px;
 }
